@@ -52,10 +52,6 @@ section button:hover {
     color: black;
 }
 
-section button .fab {
-    margin-right: 10px;
-}
-
 nav{
     height: 50px;
     margin: auto;
