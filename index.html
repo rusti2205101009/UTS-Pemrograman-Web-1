@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UTS Pem WEB 1</title>
+    <link rel="stylesheet" href="/Assets/style/uts.css">
+    <link rel="stylesheet" href="../fontawesome-free-6.6.0-web/css/all.min.css">
+</head>
+<body>
+    <header>
+       <div class="judul">Budaltravel</div>
+       <div class="tombol">
+            <button onclick="login()">Login</button>
+            <button onclick="signup()">Sign Up</button>
+       </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Beranda</a></li>
+            <li><a href="#">Jadwal Umroh</a>
+                <ul class="subJadwal">
+                    <li><a href="#">Januari</a></li>
+                    <li><a href="#">Februari</a></li>
+                    <li><a href="#">Maret</a></li>
+                    <li><a href="#">April</a></li>
+                    <li><a href="#">November</a></li>
+                    <li><a href="#">Desember</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Paket Umroh</a>
+                <ul class="subUmroh">
+                    <li><a href="#" onclick="tampilUmroh('Paket Reguler')">Paket Reguler</a></li>
+                    <li><a href="#" onclick="tampilUmroh('Paket Plus')">Paket Plus</a></li>
+                    <li><a href="#" onclick="tampilUmroh('Paket VIP')">Paket VIP</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Paket Haji</a>
+                <ul class="subHaji">
+                    <li><a href="#" onclick="tampilHaji('Paket Reguler')">Paket Reguler</a></li>
+                    <li><a href="#" onclick="tampilHaji('Paket Plus')">Paket Plus</a></li>
+                    <li><a href="#" onclick="tampilHaji('Paket Furoda')">Paket Furoda</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <section>
+        <div class="menu">
+            <h3>Travel Umroh Dan Haji Terbaik</h3>
+            <h1>Selamat Datang Calon Tamu Allah</h1>
+            <h1>Tunaikan Rukun Islam Ke-5</h1>
+        </div>
+    
+        <p>Kami Budaltravel. selalu memberikan pelayanan terbaik demi keamanan dan kenyamanan ibadah sahabat dan keluarga semua.</p>
+        
+        <button onclick="tampilBtn()"><i class="fab fa-whatsapp"></i>Konsultasi Di Sini</button>
+    </section>
+
+    <footer><span>&copy;2024 Budaltravel.</span> Semua hak cipta dilindungi </footer>
+
+    <script src="/Assets/script/uts.js"></script>
+</body>
+</html>
+
